@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.album {
+  font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
+  font-size: 1rem;
+  /* begin album cover */
+  /* end album cover */
+}
+.album:after, .album #album-cover:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.album .album-cover {
+  width: 195px;
+  border: solid 1px #fff;
+  float: left;
+  text-align: center;
+}
+.album .album-cover:hover {
+  border-color: #8c8989;
+}
+.album .album-cover img {
+  height: 195px;
+}
+.album h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+.album h3 small {
+  font-size: 1rem;
+  color: #8c8989;
+}
+
+.album img {
+  max-width: 100%;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=album.css.map */

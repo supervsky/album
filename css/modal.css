@@ -1,0 +1,47 @@
+.container {
+	position: relative;
+}
+
+#modal {
+	position: fixed;
+	left: 0;
+	top: 0; /*set by javascript*/
+	width: 100%
+	height: auto;
+	background-color: #252525;
+	padding: 30px 20%;
+	display: none;
+}
+
+
+#icon-close {
+	float: right;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+
+.modal-body img, .modal-body {
+	width: 800px;
+	height: 550px;
+}
+
+#icon-prev,
+#icon-next {
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	position: relative;
+	bottom: 280px;
+}
+
+#icon-prev {
+	float: left;
+}
+
+#icon-next {
+	float: right;
+}
